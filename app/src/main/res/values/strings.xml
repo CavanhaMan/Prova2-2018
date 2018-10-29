@@ -25,6 +25,8 @@
     <string name="retirar_na_loja">Retirar na loja</string>
     <string name="fechar_conta">Fechar conta</string>
 
+    <string name="pay_label_text">O valor do seu pedido é:</string>
+
     <string-array name="labels_array">
         <item>Home</item>
         <item>Work</item>
