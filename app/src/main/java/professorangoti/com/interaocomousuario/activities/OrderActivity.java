@@ -79,4 +79,10 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
     public void onNothingSelected(AdapterView<?> parent) {
 
     }
+
+    public void fecharConta(View view) {
+        Intent intent = new Intent(OrderActivity.this, PayActivity.class);
+        intent.putExtra("mensagem", pedido);
+        startActivity(intent);
+    }
 }
