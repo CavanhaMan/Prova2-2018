@@ -12,6 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
  * Created by angoti on 31/10/2017.
+ * Alterado by Cavanha on 29/10/2018.
  */
 
 public class RetrofitService {
