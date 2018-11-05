@@ -10,12 +10,14 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-import professorangoti.com.interaocomousuario.R;
 import professorangoti.com.interaocomousuario.dominio.Preco;
 import professorangoti.com.interaocomousuario.services.RetrofitService;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+
+import professorangoti.com.interaocomousuario.R;
+
 
 public class PayActivity extends AppCompatActivity {
     String pedido;
