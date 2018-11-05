@@ -1,4 +1,4 @@
-package produtos;
+package professorangoti.com.interaocomousuario.produtos;
 
 public class Produtos {
     String produto;

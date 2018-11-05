@@ -7,25 +7,25 @@
     tools:context=".activities.PayActivity">
 
     <TextView
-        android:id="@+id/pay_textview"
+        android:id="@+id/textvrpagto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="84dp"
         android:layout_marginTop="16dp"
-        android:text="@string/pay_label_text"
+        android:text="@string/textvrpagto"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/pay_textsoma"
+        android:id="@+id/somapagto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="156dp"
-        android:layout_marginTop="120dp"
-        android:text="30,00"
-        android:textSize="28sp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="132dp"
+        android:text="@string/somapagto"
         android:textColor="@color/colorAccent"
+        android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

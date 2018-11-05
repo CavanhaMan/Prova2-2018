@@ -1,9 +1,9 @@
-package services;
+package professorangoti.com.interaocomousuario.services;
 
 import java.util.List;
 
 import okhttp3.ResponseBody;
-import produtos.Produtos;
+import professorangoti.com.interaocomousuario.dominio.Preco;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.DELETE;
@@ -13,9 +13,8 @@ import retrofit2.http.Path;
 
 public interface InterfaceDeServicos {
     @GET("precos")
-    Call<List<Produtos>> getProduto();
-    @GET("precos")
-    Call<List<Produtos>> getPreco();
+    Call<List<Preco>> getPrecos();
+
 /*
     @GET("/categorias/{id}")
     Call<Categoria> getCategoria(@Path("id") int id);
@@ -30,6 +29,7 @@ public interface InterfaceDeServicos {
     Call<ResponseBody> salvar(@Body Categoria categoria);
 
     @POST("/produtos")
-    Call<ResponseBody> salvarProduto(@Body Produto produto);*/
+    Call<ResponseBody> salvarProduto(@Body Produto produto);
+*/
 }
 
