@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.OrderActivity" />
+        <activity android:name=".activities.PayActivity"></activity>
     </application>
 
 </manifest>
